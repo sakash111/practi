@@ -17,14 +17,18 @@ public class Clear2 {
 				driver.get("https://demo.vtiger.com/vtigercrm/");
 				WebElement ele = driver.findElement(By.id("username"));
 				ele.clear();
-				Thread.sleep(2000);
-				ele.sendKeys("Akash");
+				driver.findElement();
 				WebElement ele1 = driver.findElement(By.id("password"));
 				ele1.clear();
 				Thread.sleep(2000);
 				ele1.sendKeys("8623998466");
 				driver.findElement(By.xpath("//button[text()='Sign in']")).click();
+<<<<<<< HEAD
 				
+=======
+				sdddddddddddddddddddddddddddddddddddddddddddddd
+				sssssssssssssssssssssss
+>>>>>>> branch 'main' of https://github.com/sakash111/practi.git
 
 			}
 
