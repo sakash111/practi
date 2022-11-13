@@ -24,6 +24,7 @@ public class Clear2 {
 				Thread.sleep(2000);
 				ele1.sendKeys("8623998466");
 				driver.findElement(By.xpath("//button[text()='Sign in']")).click();
+				
 
 			}
 
